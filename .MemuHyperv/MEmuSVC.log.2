@@ -1,0 +1,40 @@
+MemuHyperv COM Server 5.1.34 r121010 win.amd64 (May 22 2023 14:00:53) release log
+00:00:00.003986 main     Log opened 2024-01-06T15:52:03.591928500Z
+00:00:00.003986 main     Build Type: release
+00:00:00.003986 main     OS Product: Windows 10
+00:00:00.003986 main     OS Release: 10.0.19044
+00:00:00.003986 main     OS Service Pack: 
+00:00:00.014950 main     DMI Product Name: VivoBook_ASUSLaptop X515JA_X515JA
+00:00:00.021926 main     DMI Product Version: 1.0       
+00:00:00.021926 main     Host RAM: 7930MB (7.7GB) total, 2319MB (2.2GB) available
+00:00:00.021926 main     Executable: D:\Program Files\Microvirt\MEmuHyperv\MEmuSVC.exe
+00:00:00.021926 main     Process ID: 17424
+00:00:00.021926 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.052824          MemuHyperv: object creation starts
+00:00:00.053821          Home directory: 'C:\Users\E-MAX PC Shop\.MemuHyperv'
+00:00:00.053821          Installed Drivers:
+00:00:00.058803            C:\Windows\system32\DRIVERS\MEmuDrv.sys (Version: 5.1.34.21010)
+00:00:00.058803          Loading settings file "C:\Users\E-MAX PC Shop\.MemuHyperv\MemuHyperv.xml" with version "1.12-windows"
+00:00:00.059800          USBLibInit: USB Service not found
+00:00:00.075747          netIfGetBoundAdapters: could not find either 'maiwei_MEmuNetLwf' or 'sun_MEmuNetFlt' components (0x1)
+00:00:00.085714          HostDnsMonitor: old information
+00:00:00.085714            no server entries
+00:00:00.085714            no domain set
+00:00:00.085714            no search string entries
+00:00:00.085714          HostDnsMonitor: new information
+00:00:00.085714            server 1: 192.168.100.1
+00:00:00.085714            no domain set
+00:00:00.085714            no search string entries
+00:00:00.085714          HostDnsMonitorProxy::notify
+00:00:00.086711          VD: VDInit finished
+00:00:00.086711          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={0eb668d2-495e-5a36-8890-29999b5f030a} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.087708          Loading settings file "D:\Program Files\Microvirt\MEmu\MemuHyperv VMs\MEmu\MEmu.memu" with version "1.15-windows"
+00:00:00.087708          MemuHyperv: object created
+00:00:00.106641          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'music'}, preserve=false aResultDetail=0
+00:00:00.106641          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'movie'}, preserve=false aResultDetail=0
+00:00:00.106641          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'picture'}, preserve=false aResultDetail=0
+00:00:00.106641          ERROR [COM]: aRC=MEMU_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={b2547866-a0a1-4391-8b86-6952d82efaaa} aComponent={SessionMachine} aText={Could not find a shared folder named 'download'}, preserve=false aResultDetail=0
+00:00:05.115894 main     MemuHyperv: object deletion starts
+00:00:05.115894 main     ERROR [COM]: aRC=MEMU_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dd1} aComponent={MediumWrap} aText={Medium 'D:\Program Files\Microvirt\MEmu\MemuHyperv VMs\MEmu\MEmu96-2023121100027FFF-disk2.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:00:05.117885 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={0169423f-46b4-cde9-91af-1e9d5b6cd94a} aComponent={MemuHypervWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:05.117885 main     MemuHyperv: object deleted
